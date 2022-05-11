@@ -1,0 +1,75 @@
+
+
+
+/*----------------------------------------------------------------- div.image_display
+------------------------------------------------------------------------------------*/
+div.list-display-properties div.image_display {
+    width: 240px;
+    height: 230px;
+    position: relative;
+    padding:0px;
+
+
+}
+
+
+
+
+
+/* div.image_display */
+div.image_display div.image_desc_display {
+    position: absolute;
+    right: 30px;
+    margin-bottom: 10px;
+    z-index: 450;
+    bottom: 4px;
+}
+
+div.image_display div.image_desc_display p {
+    display: table-row;
+    color: #FFF;
+}
+
+div.image_display div.image_desc_display p i {
+    display: table-cell;
+    padding-left: 10px;
+}
+
+div.image_display div.image_desc_display p span {
+    display: table-cell;
+}
+
+
+/* ------------------- image_display */
+
+
+div.image_display a.link_slider_photo_display {
+    width: 25px;
+    height: 34px;
+    float: left;
+    position: absolute;
+    top: 74px;
+
+}
+
+
+div.image_display a.link_slider_photo_display.left {
+
+    background: url(../../images/setalinksliderdisplayleft.png) no-repeat !important;
+    background-position: left top;
+    left: 20px;
+
+
+}
+
+div.image_display a.link_slider_photo_display.right {
+    background: url(../../images/setalinksliderdisplayright.png) no-repeat !important;
+    background-position: left top;
+    right: 20px;
+
+}
+
+div.image_display a.link_slider_photo_display:hover {
+    background-position: left -35px !important;
+}
+

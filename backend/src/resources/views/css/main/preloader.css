@@ -1,0 +1,22 @@
+
+div#loading-app {
+    background:url(../../images/loadings/first-load-spin.svg) no-repeat;
+    width:200px;
+    height:200px;
+    background-position:center center;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px; /*set to a negative number 1/2 of your height*/
+    margin-left: -100px; /*set to a negative number 1/2 of your width*/
+
+}
+div#loading-app p {
+    padding-top:170px;
+    font-size:22px;
+    text-align: center;
+}
+
+div#loading-app.is-hidden {
+    display:none;
+}

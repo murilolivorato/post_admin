@@ -1,0 +1,166 @@
+div#header-one {
+    background:url(../../images/imgbannercontact.jpg) no-repeat;
+    background-position:center center;
+    height:410px;
+}
+
+div#right-side-contato {
+    width:400px;
+}
+
+div.nb-left {
+    float:left;
+    width:70px;
+    padding-bottom:20px;
+}
+div.nb-left svg {
+    font-size:32px;
+}
+
+div.nb-right {
+    float:left;
+
+}
+div.nb-right h3 {
+    font-size:21px;
+}
+
+
+ul.social-media {
+    padding-top:20px;
+}
+
+ul.social-media  li {
+    width:50px;
+    height:50px;
+    float:left;
+    padding-right:20px;
+}
+
+ul.social-media  li a{
+    width:40px;
+    height:40px;
+    float:left;
+
+    background:#336078;
+    border-radius:50%;
+    color:#FFF;
+
+}
+
+ul.social-media  li a{
+    font-size:20px;
+    padding:9px 0 0 12px;
+}
+
+
+ul.social-media  li a:hover{
+    background: #33789e;
+}
+
+
+div.nb-right p span.sp1{
+    font-size:18px;
+}
+div.nb-right p span.sp2{
+    font-size:22px;
+}
+
+h3.contact-side-bar {
+    font-size:25px;
+    padding-bottom:20px;
+}
+h3.contact-nos-siga {
+    font-size:22px;
+    padding-top:20px;
+}
+
+#map_area {
+    height:400px;
+    padding:0px;
+    margin:0px;
+}
+
+#map_area div.col_left {
+    height:400px;
+    width:380px;
+    background:#e6e6e6;
+    padding:0px;
+    margin:0px;
+}
+
+#map_area div.col_right {
+    height:400px;
+    overflow:hidden;
+    padding:0px;
+    margin:0px;
+
+}
+
+div.social-media-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+
+div.social-media-list  h3 {
+    padding-right:30px;
+}
+
+section#filiais {
+
+}
+section#filiais {
+    padding:0 0 40px 0;
+}
+
+
+
+
+div#content-pg {
+    padding-left:70px;
+    padding-right:70px;
+}
+@media (max-width: 950px) {
+    div#right-side-contato {
+        width: 100%;
+        float:none;
+        padding-bottom:30px;
+    }
+
+    div#content-pg {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.nb-right h3 {
+        font-size:21px;
+    }
+
+    h3.contact-side-bar  , h3.contact-nos-siga {
+        text-align:center;
+    }
+
+    div#phone-alt   {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-top:10px;
+        padding-bottom:30px;
+    }
+
+    div#whatsapp-alt{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-bottom:30px;
+    }
+
+
+
+}

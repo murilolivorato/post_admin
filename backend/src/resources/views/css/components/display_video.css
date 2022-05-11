@@ -1,0 +1,43 @@
+
+/* -------------------------------------------------------------  display_video */
+
+div.display_video {
+    width:600px;
+    float:left;
+}
+
+div.display_video  h3{
+
+    font-size:20px;
+    text-transform:uppercase;
+    padding:0 0 14px 0;
+    margin:0px;
+
+}
+
+div.display_video  p {
+    font-size:14px;
+}
+
+
+
+/* -------------------------------------------------------------  display_video */
+
+div.display_list_video {
+    width:400px;
+    float:left;
+}
+
+
+div.display_list_video  h3{
+
+    font-size:20px;
+    text-transform:uppercase;
+    padding:0 0 14px 0;
+    margin:0px;
+
+}
+
+div.display_list_video  p {
+    font-size:14px;
+}

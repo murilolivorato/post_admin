@@ -1,0 +1,12 @@
+
+
+/* --- list_img_gallery  ---*/
+ul.list_img_gallery { clear:both;padding:20px 0 0 18px;margin:0px auto;  text-align:center;}
+ul.list_img_gallery li { display:inline;height:40px;padding:0 16px 0 0;margin:0px;}
+ul.list_img_gallery li a {font-size:20px; display:inline-block;}
+ul.list_img_gallery li a:hover {color:#000;}
+ul.list_img_gallery li i {margin:0px;}
+ul.list_img_gallery li i.fa-edit {color:#ceaa04;}
+ul.list_img_gallery li i.fa-edit:hover {color:#e9d000;}
+ul.list_img_gallery li i.fa-remove {color:#982d1e;}
+ul.list_img_gallery li i.fa-remove:hover {color:#d5311a;}

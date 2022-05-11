@@ -1,0 +1,303 @@
+
+body {
+    background:#e4e7e7 url(../../images/bgbudget.jpg) repeat-x;
+}
+
+/* HTML elements  */
+@font-face {
+    font-family: RotisBold;
+    src: url("../../fonts/RotisSansSerifStd-ExtraBold.eot") /* EOT file for IE */
+}
+@font-face {
+    font-family: RotisBold;
+    src: url("../../fonts/RotisSansSerifStd-ExtraBold.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+    font-family: RotisSans;
+    src: url("../../fonts/RotisSansSerifStd-Light.eot") /* EOT file for IE */
+}
+@font-face {
+    font-family: RotisSans;
+    src: url("../../fonts/RotisSansSerifStd-Light.ttf") /* TTF file for CSS3 browsers */
+}
+
+
+@font-face {
+    font-family: Droid;
+    src: url("../../fonts/DroidSans.eot") /* EOT file for IE */
+}
+@font-face {
+    font-family: Droid;
+    src: url("../../fonts/DroidSans.ttf") /* TTF file for CSS3 browsers */
+}
+
+
+
+.slider-list-area {
+    padding-top:50px;
+}
+h1{
+    text-align:center;
+    font-size:26px;
+    padding-bottom:30px;
+    text-transform:uppercase;
+}
+
+/* -------------------------- bloco-item ------------------------------------*/
+div.bloco-item{
+    width:100%;
+    float:left;
+}
+
+div.bloco-item:after{
+    content:".";
+    display:block;
+    clear:both;
+    visibility:hidden;
+    height:0;
+    overflow:hidden;
+}
+
+
+/* -------------------------- row ------------------------------------*/
+.row{
+    width:100% !important;
+    clear:both  !important;
+}
+
+.row:after{
+    content:".";
+    display:block;
+    clear:both;
+    visibility:hidden;
+    height:0;
+    overflow:hidden;
+}
+
+
+.isRelative {
+    position:relative;
+}
+
+
+div.container {
+    width:1080px !important;
+    background: none;
+    margin:0px auto;
+
+}
+section#main-content {
+    padding:30px 0 30px 0;
+}
+section#main-content div.container {
+    background:#FFF !important;
+    border-radius:6px;
+    padding:30px;
+
+}
+
+.is-orange {
+    background-color:#e27c26 !important;
+    color:#FFF !important;
+}
+
+
+/****************************************  fonts  */
+h1 {font-family:RotisBold, RotisSans , Helvetica, Arial, Sans-Serif;}
+h2 , h3 , h4 , h5 , h6 , ul li a {font-family:RotisSans, Times, Arial, Sans-Serif;color:#1a3165;}
+
+p {font-family:Droid, Helvetica, Arial, Sans-Serif;}
+
+
+body, table, input, textarea, select, li, button{
+    font:1em Droid, Times, Arial, Sans-Serif;
+}
+
+form {
+    padding:30px 0 50px 0;
+}
+
+legend {
+    font-family:RotisSans, Times, Arial, Sans-Serif;
+    font-size:22px;
+    padding-bottom:26px !important;
+    padding-top:20px !important;
+    text-transform:uppercase;
+}
+
+
+
+
+div.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ------------------------------------------------------ HOME HEADER */
+div#logo {
+    margin-top:16px;
+    width:280px;
+    height:125px;
+    float:left;
+}
+
+#logo h1{
+    width:280px;
+    height:125px;
+    float:left;
+}
+#logo h1 a{
+    width:280px;
+    height:125px;
+    background:url(../../images/logo.png) no-repeat;
+    background-position:0 0;
+    float:left;
+    text-indent:-90000px;
+    overflow:hidden;
+}
+
+
+div#logo_footer {
+    margin-top:16px;
+    width:254px;
+    height:114px;
+    float:left;
+}
+
+#logo_footer h1{
+    width:254px;
+    height:114px;
+    float:left;
+}
+#logo_footer h1 a{
+    width:254px;
+    height:114px;
+    background:url(../../images/logo_footer.png) no-repeat;
+    background-position:0 0;
+    float:left;
+    text-indent:-90000px;
+    overflow:hidden;
+}
+
+section#footer {
+    padding:20px 0 30px 0;
+    background:url(../../images/footerbg.jpg) repeat-x;
+    background-position:center top;
+
+}
+
+div.col_footer_one p {
+    padding-top:26px;
+    display:block;
+}
+
+section#footer div.col_1 h3 , section#footer div.col_footer_two h3 , section#footer div.col_footer_three h3 {
+    padding:20px 0 20px 0;
+    font-size:22px;
+    font-size:18px;
+    text-transform:uppercase;
+}
+
+section#footer ul.pg-footer-nav li a {
+    color:#000;
+    padding-top:10px;
+    display:block;
+    font-size:18px;
+
+}
+
+section#footer ul.pg-footer-nav li a:hover {
+    text-decoration:underline;
+    color:#1a3165;
+}
+
+section#footer div.col_phone {
+    width:400px;
+
+}
+
+
+
+section#footer ul.footer-social-media {
+    padding-top:20px;
+}
+
+section#footer ul.footer-social-media  li {
+    width:50px;
+    height:50px;
+    float:left;
+    padding-right:20px;
+}
+
+section#footer ul.footer-social-media  li a{
+    width:40px;
+    height:40px;
+    float:left;
+
+    background:#336078;
+    border-radius:50%;
+    color:#FFF;
+
+}
+
+section#footer ul.footer-social-media  li a{
+    font-size:20px;
+    padding:9px 0 0 12px;
+}
+
+
+
+
+section#footer ul.footer-social-media  li a:hover{
+    background: #33789e;
+}
+
+div.message-bottom-footer {
+    padding-top:20px;
+}
+
+a.btn-footer-register {
+    height : 48px !important;
+    font-size:17px;
+}
+
+a.btn-footer-register svg {
+    margin-left:15px;
+}
+
+ul.footer-companies li a {
+    font-size:18px;
+}
+ul.footer-companies li a:hover {
+    text-decoration:underline;
+}
+a.go-back {
+    color:#FFF;
+    font-size:17px;
+}
+a.go-back:hover {
+    text-decoration:underline;
+}
+a.go-back svg {
+    margin-right:16px;
+}
+
+
+form.footer_register {
+    border:1px solid;
+    margin:0px;
+    padding:0px;
+}
+div.social_media_menu {
+    margin:0px !important;
+    padding:0px !important;
+}
+div.social_media_menu div.column{
+    margin:0px !important;
+    padding:0px !important;
+}
+div.social_media_menu h3 {
+    margin:0px !important;
+    padding:0px !important;
+}

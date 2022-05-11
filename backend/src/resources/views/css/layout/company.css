@@ -1,0 +1,95 @@
+div#icons_banner {
+    padding:30px 0 30px 0;
+}
+
+div#icons_banner div.img_1{
+    background:url(../../images/iconaempresa1.jpg) no-repeat;
+    background-position:center center;
+    width:105px;
+    height:83px;
+}
+
+div#icons_banner div.img_2{
+    background:url(../../images/iconaempresa2.jpg) no-repeat;
+    background-position:center center;
+    width:87px;
+    height:83px;
+}
+
+div#icons_banner div.img_3{
+    background:url(../../images/iconaempresa3.jpg) no-repeat;
+    background-position:center center;
+    width:86px;
+    height:83px;
+}
+
+div#icons_banner h3 .sp1 {
+    font-size:19px;
+}
+
+div#icons_banner h3 .sp2 {
+    font-size:27px;
+}
+
+
+div#header-one {
+    background:url(../../images/headerservices.jpg) no-repeat;
+    background-position:center center;
+    height:410px;
+
+}
+
+
+div.side_bar {
+    width:260px;
+    margin-left:40px;
+    padding-bottom:30px;
+}
+h2 {
+    font-size:25px;
+}
+div.side_bar h3 {
+    font-size:22px;
+    padding-top:26px;
+}
+
+
+
+
+.sidebar_col svg {
+    font-size:26px;
+    margin-right:18px;
+}
+.sidebar_col h3 {
+    padding-bottom:16px;
+}
+
+.image_thumb {
+    position: relative;
+    /* width: 200px;*/
+    height: 170px;
+    overflow: hidden;
+    border:1px solid;
+    margin:6px;
+
+}
+
+.image_thumb img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius:6px;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 900px) {
+    div.side_bar {
+        width:100%;
+        margin-left:0px;
+        padding-bottom:30px;
+    }
+}

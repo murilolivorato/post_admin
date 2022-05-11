@@ -1,0 +1,48 @@
+
+a.optionmenubtn{
+    background: #efefef;
+    height:54px;
+    padding:0 20px 0 0;
+    margin:0px;
+    width:100%;
+    display:block;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+a.optionmenubtn.active{
+
+    box-shadow: 0 0 1px 1px #4991bf ;
+}
+
+
+a.optionmenubtn span{
+    background:url(../../images/bgtopbutonicon_black.png) no-repeat !important;
+    background-position:right 18px !important;
+    display:block;
+    height:40px;
+    padding:6px 0 0 0;
+    margin:0px;
+    line-height:36px;
+    font-size:15px;
+    width:100%;
+    color:#000;
+    text-align:left;
+    overflow:hidden;
+}
+a.optionmenubtn.notselected span{
+    background:none !important;
+}
+
+/* -----------------------------------------   COMBO BUTTON */
+a#btniconhtop7 {
+    background-image: url(../../images/icontophome_location_black.png) !important;
+    background-repeat:no-repeat;
+    background-position:15px center;
+
+}
+
+a#btniconhtop7 span{
+    text-indent:58px;
+}
+

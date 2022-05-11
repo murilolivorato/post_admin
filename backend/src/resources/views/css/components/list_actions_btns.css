@@ -1,0 +1,18 @@
+
+
+/* --- list_actions_btns  ---*/
+ul.list_actions_btns { clear:both;display:table;margin:0px auto; padding-top:20px;}
+ul.list_actions_btns li { display:table-cell;height:40px;padding:0 25px 0 0 !important;margin:0px;list-style-type:none;}
+ul.list_actions_btns li a { font-size:18px;}
+
+ul.list_actions_btns li a.list_btn {color:#30943e;}
+ul.list_actions_btns li a.list_btn:hover {color:#2db23f;}
+
+ul.list_actions_btns li a.edit_btn {color:#ceaa04;}
+ul.list_actions_btns li a.edit_btn:hover {color:#e9d000;}
+
+ul.list_actions_btns li a.delete_btn  {color:#982d1e;}
+ul.list_actions_btns li a.delete_btn:hover {color:#d5311a;}
+
+
+

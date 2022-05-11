@@ -1,0 +1,48 @@
+
+div#green-banner {
+    margin-top:30px;
+    margin-bottom:30px;
+    background:url(../../images/greenbannerbg.jpg) repeat-x;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+div#green-banner.nm-b {
+    margin-bottom:0px;
+}
+div#green-banner.nm-t {
+    margin-top:0px;
+}
+
+div#green-banner h3 {
+    color:#FFF;
+    text-transform:uppercase;
+    /*margin-top:40px;*/
+}
+
+div.btn-banner-area {
+    padding-top:24px;
+}
+
+div#green-banner h3 span.sp1 {
+    font-size:24px;
+}
+div#green-banner h3 span.sp2 {
+    font-size:35px;
+}
+a.top-btn-one {
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px 30px;
+    border: none;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background: #df8300;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    text-transform:uppercase;
+    color:#FFF;
+    font-size:18px;
+}
+a.top-btn-one:hover {
+    background: #ee910d;
+}

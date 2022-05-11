@@ -1,0 +1,105 @@
+
+div.searchdropbox {
+    position:absolute;
+    left:12px;
+    z-index:200;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 6px;
+    border: none;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: -webkit-linear-gradient(0deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 96%, rgba(234,234,234,1) 100%), -webkit-linear-gradient(-180deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 94%, rgba(234,234,234,1) 100%), -webkit-linear-gradient(90deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 83%, rgba(234,234,234,1) 100%), -webkit-linear-gradient(-90deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 78%, rgba(234,234,234,1) 100%), rgba(255,255,255,1);
+    background: -moz-linear-gradient(90deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 96%, rgba(234,234,234,1) 100%), -moz-linear-gradient(270deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 94%, rgba(234,234,234,1) 100%), -moz-linear-gradient(0deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 83%, rgba(234,234,234,1) 100%), -moz-linear-gradient(180deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 78%, rgba(234,234,234,1) 100%), rgba(255,255,255,1);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 96%, rgba(234,234,234,1) 100%), linear-gradient(270deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 94%, rgba(234,234,234,1) 100%), linear-gradient(0deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 83%, rgba(234,234,234,1) 100%), linear-gradient(180deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 78%, rgba(234,234,234,1) 100%), rgba(255,255,255,1);
+    background-position: 50% 50%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2) ;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2) ;
+}
+
+div.searchdropbox  div.top_searchdropbox {
+    width:20px;
+    height:9px;
+    display:block;
+    position:absolute;
+    z-index:201;
+    top:-9px;
+    left:90px;
+    background:url('../../images/bgtopsearchdropbox.png') no-repeat center center !important;
+
+}
+
+
+
+
+/* ----------------  menumaintop */
+ul.search_top_list {
+    padding:4px 20px 20px 12px;
+    float:left;
+}
+
+ul.search_top_list li{
+    padding:0 0 0 0;
+    text-align:left;
+    width:100%;
+    display:block;
+    font-size:14px;
+
+}
+ul.search_top_list li h3{
+    text-transform:uppercase;
+    padding-left:8px;
+    padding-bottom:4px;
+    font-size:15px;
+}
+
+ul.search_top_list li a{
+    color:#0c508a;
+    padding:8px 0 8px 0;
+    margin:0px;
+    width:100%;
+    display:block;
+}
+
+ul.search_top_list li a span{
+    width:100%;
+    padding:0 8px 0 8px;
+    display:block;
+}
+
+/*ul.search_top_list li a:hover {
+    background:#e8e8e8;
+    border-radius:6px;
+
+}*/
+
+ul.search_top_list.desable{
+    display:none;
+}
+
+
+
+/* --------------------------------  BOX PERIOD */
+
+div.box_period {
+    width:430px !important;
+}
+
+
+/* -----------------------------  BOX TYPE */
+
+div#dropboxtype {
+    width:384px;
+}
+
+div.box_more_filter {
+    width:580px;
+}
+

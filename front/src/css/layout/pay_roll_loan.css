@@ -1,0 +1,58 @@
+
+
+div#pg-service-pay-roll-loan div.side-bar-img {
+    width:450px;
+
+
+}
+div#pg-service-pay-roll-loan div#header-one {
+    background:url(../../images/headerservices.jpg) no-repeat;
+    background-position:center center;
+    height:410px;
+}
+
+div#pg-service-pay-roll-loan div#section-two h2 {
+    padding-bottom:20px;
+    padding-right:26px;
+    font-size:22px;
+}
+
+div#pg-service-pay-roll-loan div#section-two h3 {
+    font-size:22px;
+    padding-top:25px;
+    padding-bottom:20px;
+}
+
+
+div#pg-service-pay-roll-loan div#section-questions {
+    padding-bottom:60px;
+}
+div#pg-service-pay-roll-loan #features_banner .banner_1 {
+    background:url(../../images/payroll_ft_1.jpg) no-repeat;
+    background-position:center center;
+}
+
+div#pg-service-pay-roll-loan #features_banner .banner_2 {
+    background:url(../../images/payroll_ft_2.jpg) no-repeat;
+    background-position:center center;
+}
+
+div#pg-service-pay-roll-loan #features_banner .banner_3 {
+    background:url(../../images/payroll_ft_3.jpg) no-repeat;
+    background-position:center center;
+}
+
+div#pg-service-pay-roll-loan #features_banner .banner_4 {
+    background:url(../../images/payroll_ft_4.jpg) no-repeat;
+    background-position:center center;
+}
+
+div#pg-service-pay-roll-loan #features_banner .banner_5 {
+    background:url(../../images/payroll_ft_5.jpg) no-repeat;
+    background-position:center center;
+}
+
+div#pg-service-pay-roll-loan #features_banner .banner_6 {
+    background:url(../../images/payroll_ft_6.jpg) no-repeat;
+    background-position:center center;
+}

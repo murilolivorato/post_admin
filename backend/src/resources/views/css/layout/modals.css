@@ -1,0 +1,235 @@
+
+/* ------------------------- send-message */
+/*
+.modal-container.send-message{
+
+    width: 900px !important;
+    padding:0px !important;
+}
+
+*/
+
+
+/* ------------------------- message-sent  */
+.modal-container.message-sent{
+
+    width: 650px !important;
+    padding:0px !important;
+}
+
+
+.modal-container.message-sent div.modal-body{
+    padding:40px !important;
+}
+
+
+.modal-container.message-sent div.left_icon i {
+    font-size:40px;
+    color:#1f7325;
+}
+
+
+/* ------------------------- message-sent  */
+
+div.modal-buttons-footer{
+   /* padding-top:30px;
+    padding-bottom:36px;*/
+    height:67px;
+
+}
+
+
+.modal-container.big1{
+
+    width: 1100px !important;
+}
+
+/* ------------------------  img-modal */
+.modal-mask.image-modal .modal-container {
+    width:auto;
+    height:auto;
+    padding: 8px !important;
+    border-radius:0px !important;
+}
+
+
+.modal-mask.image-modal .modal-container.horizontal {
+    max-width: 950px; !important;
+
+}
+.modal-mask.image-modal .modal-container.vertical {
+    max-width: 550px; !important;
+
+}
+
+.modal-mask.image-modal .modal-body {
+    padding: 0px !important;
+    margin:0px !important;
+}
+
+.modal-mask.image-modal .modal-container img {
+    width:100%;
+}
+
+
+/* --- send-message */
+
+/*div.send-message div.modal-header {
+    background: url(../../images/bgsendmessagetop.jpg) repeat-x;
+    background-position:bottom;
+    height:70px;
+
+}
+
+div.send-message div.modal-header h4{
+    padding-top:26px;
+    padding-left:24px;
+    text-transform:uppercase;
+}
+
+div.send-message div.modal-body {
+    padding:0px !important;
+    margin:0px !important;
+
+}*/
+
+/* message-status  */
+div.message-status {
+    background: url(../../images/sentsuccessmsgbg.png) no-repeat;
+    background-position:left top;
+    margin:30px 0 30px 0;
+    padding:0 10px 30px 0;
+}
+
+div.message-status h4{
+    text-transform:uppercase;
+    line-height:26px;
+}
+
+div.message-status .column{
+
+    padding:0 0 0 138px;
+}
+
+
+/* message-status  */
+div.message-status-body {
+    background: #efefef url(../../images/sentsuccessmsgbg.png) no-repeat;
+    background-position:20px 20px;
+    margin:30px 0 30px 0 !important;
+    padding:14px 10px 30px 0 !important;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+
+}
+
+div.message-status-body h4{
+    text-transform:uppercase;
+    line-height:26px;
+}
+
+div.message-status-body .column{
+
+    padding:0 0 0 160px !important;
+
+}
+
+
+/* message-box  @@@*/
+div.message-box {
+    padding:0px !important;
+    margin:0px !important;
+    border-radius: 0px 0px 6px 6px;
+    -moz-border-radius: 0px 0px 6px 6px;
+    -webkit-border-radius: 0px 0px 6px 6px;
+    overflow:hidden;
+}
+
+
+div.message-box-col-left {
+    width:280px;
+    background:#ededed url(../../images/shadowmessageboxco.png) no-repeat;
+    background-position:right top;
+
+}
+
+
+div.message-box-col-right {
+    padding-right:30px;
+    padding-left:20px;
+    height:auto !important;
+}
+
+
+div.broker-profile.modal_send_msg {
+    margin-top:26px;
+}
+
+
+div.broker-profile-img {
+    position: relative;
+    width: 150px;
+    height: 164px;
+    overflow:hidden;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin:0px auto !important;
+    border:1px solid;
+
+}
+
+div.broker-profile-img img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+
+}
+
+
+
+
+div.company-profile-img {
+    position: relative;
+    width: 200px;
+    height: 164px;
+    overflow:hidden;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin:0px auto !important;
+
+}
+
+div.company-profile-img img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+div.message-box textarea {
+
+    height:140px;
+}
+
+div.message-box  div.btn-submit-message button {
+    float:left;
+    margin:0 8px 0 0;
+}
+
+button.error-msg-wd {
+    margin:50px 0 50px 250px;
+
+}
+
+
+

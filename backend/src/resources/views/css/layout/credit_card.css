@@ -1,0 +1,20 @@
+
+
+div#pg-service-credit-card div#header-one {
+    background:url(../../images/headerservices.jpg) no-repeat;
+    background-position:center center;
+    height:410px;
+}
+div#pg-service-credit-card div#section-two h2 {
+    font-size:23px;
+    padding-bottom:20px;
+}
+div#pg-service-credit-card div#section-two h3 {
+    font-size:18px;
+    margin:30px 0 20px 0;
+}
+@media (max-width: 900px) {
+    div#pg-service-credit-card div#section-two h2, div#pg-service-credit-card div#section-two h3 {
+        text-align: center;
+    }
+}

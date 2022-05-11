@@ -1,0 +1,24 @@
+
+div#pg-service-open-account div#section-two h2 {
+    font-size:23px;
+    padding-bottom:20px;
+}
+div#pg-service-open-account div#header-one {
+    background:url(../../images/headerservices.jpg) no-repeat;
+    background-position:center center;
+    height:410px;
+}
+
+div#pg-service-open-account #section-three h3 {
+    font-size:23px;
+    padding-bottom:20px;
+}
+
+div#pg-service-open-account #section-three {
+    padding-bottom:60px;
+}
+@media (max-width: 900px) {
+    div#pg-service-open-account #section-three h3 {
+        text-align: center;
+    }
+}

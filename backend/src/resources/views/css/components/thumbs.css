@@ -1,0 +1,80 @@
+
+/*------------------------------------------------------- THUMB 1 @@@ */
+a.thumb.imgthumb1 div.image_link {
+    width: 196px;
+    height: 146px;
+}
+
+a.thumb.imgthumb1 div.box_img_thumb {
+    width: 196px;
+    height: 146px;
+
+}
+a.thumb.imgthumb1  i.fa-search {
+    width: 196px;
+}
+
+a.thumb.imgthumb1  div.mag_search {
+    width: 196px;
+    height: 146px;
+}
+
+/*------------------------------------------------------- THUMB 2 */
+a.thumb.imgthumb2 {
+    position:absolute;
+    left: 50%;
+    width: 130px;
+    height: 120px;
+    margin-left:-60px;
+}
+
+a.thumb.imgthumb2 div.image_link {
+    width: 130px;
+    height: 120px;
+}
+
+a.thumb.imgthumb2 div.box_img_thumb {
+    width: 130px;
+    height: 120px;
+}
+a.thumb.imgthumb2  i.fa-search {
+    width: 130px;
+}
+
+
+a.thumb.imgthumb2  div.mag_search {
+    width: 130px;
+    height: 120px;
+}
+
+/*----------------------------------------- THUMB , DISPLAY FILES */
+ul#display_files a.thumb , a.thumb {
+    padding:4px;
+    border:#c9c9c9 1px solid;
+
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+
+    float:left;
+
+}
+
+a.thumb div.image_link  {
+    position: relative;
+    overflow: hidden;
+    background:#FFF;
+    display: inline-block;
+}
+ul#display_files a.thumb div.image_link {
+    position: relative;
+    overflow: hidden;
+    background:#FFF;
+    display: inline-block;
+    width: 196px;
+    height: 146px;
+}
+
+a.thumb div.box_img_thumb {
+    position: relative;
+}

@@ -1,0 +1,84 @@
+
+div#pg-service-loan div#header-one {
+    background:url(../../images/headerservices.jpg) no-repeat;
+    background-position:center center;
+    height:410px;
+}
+div#pg-service-loan div.first-menu-list {
+    background:#FFF;
+    height:68px;
+}
+div#pg-service-loan div.last-menu-list {
+    margin-top:18px;
+    background:#FFF;
+    height:170px;
+}
+
+
+div#pg-service-loan  .div-counter {
+    width:50px;
+    height:50px;
+    background:#2d9a27;
+    border-radius:50%;
+    margin-top:18px;
+    margin-right:20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+div#pg-service-loan div.last-menu-list .div-counter {
+    margin-top:0px;
+}
+
+div#pg-service-loan  .div-counter h4 {
+    font-size:26px;
+    color:#FFF;
+    /* margin-left:16px;
+     margin-top:12px;*/
+}
+
+div#pg-service-loan div#section-two h2 {
+    padding-bottom:26px;
+}
+div#pg-service-loan div#section-two h2 span.sp1 {
+    font-size:22px;
+}
+div#pg-service-loan div#section-two h2 span.sp2 {
+    font-size:30px;
+}
+div#pg-service-loan div#section-two h3 {
+    font-size:21px;
+    padding-bottom:10px;
+
+}
+div#pg-service-loan div#section-two ul {
+    padding:0px;
+    margin:0px;
+    background:url(../../images/greenstripe.jpg) repeat-y;
+    background-position:13px 0;
+
+}
+div#pg-service-loan div#section-two ul li {
+    padding-bottom:40px;
+}
+div#pg-service-loan div#section-two ul li.last {
+    padding-bottom:0px;
+}
+
+div#pg-service-loan div#section-questions {
+    padding-bottom:60px;
+}
+
+ul.advantage-list li p{
+    font-size:16px;
+    line-height:26px;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+    div#pg-service-loan div#section-two h2 , div#pg-service-loan div#section-two h3 , div#pg-service-loan div#section-two ul li  {
+        text-align:center;
+    }
+}

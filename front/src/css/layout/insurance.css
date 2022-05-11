@@ -1,0 +1,36 @@
+
+div#pg-service-insurance #section-three {
+    padding-bottom:60px;
+}
+
+div#pg-service-insurance #section-two h2  , div#pg-service-insurance #section-three h2 {
+    font-size:26px;
+    padding-bottom:20px;
+
+}
+div#pg-service-insurance #section-two h3  , div#pg-service-insurance #section-three h3 {
+    font-size:23px;
+    padding-bottom:20px;
+
+}
+div#pg-service-insurance div#header-one {
+    background:url(../../images/headerservices.jpg) no-repeat;
+    background-position:center center;
+    height:410px;
+}
+
+
+
+div#pg-service-insurance div.icon_list {
+    padding:20px 20px 10px 20px;
+}
+div#pg-service-insurance div.icon-left svg {
+    font-size:30px;
+    margin-right:16px;
+    margin-top:10px;
+}
+@media (max-width: 900px) {
+    div#pg-service-insurance  #section-two h2, div#pg-service-insurance  #section-three h2 {
+        text-align: center;
+    }
+}

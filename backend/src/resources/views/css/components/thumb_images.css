@@ -1,0 +1,71 @@
+.drag-area {
+
+    width:64px;
+}
+.drag-area svg {
+    color:#d8d8d8;
+    margin-left:26px;
+    margin-top:28px;
+    font-size:19px;
+}
+.list_actions_btns {
+    margin-left:80px !important;
+    width:68px;
+}
+
+ul#display_images {
+
+    padding:0px;
+    margin:0px;
+}
+
+ul#display_images  li.imagelist {
+
+    width: 96%;
+    list-style:none;
+
+    position:relative;
+
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+
+    background:#FFF;
+    border:#cdcdcd 1px solid;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2) ;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2) ;
+    border-radius:6px;
+    margin: 0 0 20px 10px;
+    padding:0px;
+}
+
+ul#display_images div.img-area {
+    width:180px;
+    overflow:hidden;
+    padding-top:20px;
+
+
+}
+
+/* -------------- icon-file */
+ul#display_images a.icon-file {
+    float:left;
+    width:100%;
+    position:relative;
+    margin-top:20px;
+    padding-left:45px;
+}
+
+/*
+ul#display_images a.icon-file img {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+*/
+
+img.img-file {
+    display: block;
+    margin: auto;
+}

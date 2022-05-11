@@ -1,0 +1,68 @@
+/* BREADCRUMB */
+
+/* BREADCRUMB TOP */
+ul.breadcrumbs_main{
+    padding:0 0 0 10px;
+    margin:0px;
+}
+
+ul.breadcrumbs_main li{
+    display: inline-block;
+    background:url(../../images/breadcrumb_sep.gif) no-repeat 0 0;
+    background-position:left 4px;
+    padding:0 20px 0 20px;
+}
+
+ul.breadcrumbs_main li.first {
+    background:none;
+    padding:0 20px 0 0;
+}
+
+ul.breadcrumbs_main li.first{
+    padding:0 20px 0 0;
+    background:none;
+}
+
+ul.breadcrumbs_main li a{
+    display: block;
+    font-size:15px;
+}
+
+ul.breadcrumbs_main li a:hover{
+    text-decoration:underline;
+}
+
+
+
+
+/* BREADCRUMB TOP */
+ul.breadcrumbs_top{
+    padding:0 0 0 10px;
+    margin:0px;
+}
+
+ul.breadcrumbs_top li{
+    display: inline-block;
+    background:url(../../images/setabreadcrumbstop.png) no-repeat 0 0;
+    background-position:left 4px;
+    padding:0 20px 0 20px;
+}
+
+ul.breadcrumbs_top li.first{
+    padding:0 20px 0 0;
+    background:none;
+}
+
+ul.breadcrumbs_top li a{
+    display: block;
+    font-size:15px;
+    color:#FFF;
+}
+
+ul.breadcrumbs_top li a:hover{
+    text-decoration:underline;
+}
+
+div.bread_crumbs_col{
+    padding:0 0 12px 0;
+}

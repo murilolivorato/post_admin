@@ -1,0 +1,136 @@
+section#first_content h2 {
+    font-size:23px;
+    padding-bottom:20px;
+}
+
+section#first_content h3 {
+    font-size:23px;
+    padding-bottom:20px;
+}
+
+div#header-one {
+    background:url(../../images/headerservices.jpg) no-repeat;
+    background-position:center center;
+    height:300px;
+    display:none;
+
+}
+
+div.side_bar_img_logo {
+    width:380px;
+
+}
+
+div.side_bar_img_logo img {
+    width: intrinsic;
+    width: -moz-max-content;
+    border-radius:6px;
+
+
+}
+
+#features_banner{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 44px;
+    border: none;
+    color: black;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: #f6f6f6;
+    -webkit-box-shadow: 0 0 26px 3px rgba(0,0,0,0.12) inset;
+    box-shadow: 0 0 26px 3px rgba(0,0,0,0.12) inset;
+    margin:30px 0 0 0;
+}
+
+#features_banner h2 {
+    text-align:center;
+    font-size:22px;
+    text-transform:uppercase;
+    padding:0 0 20px 0;
+}
+
+#features_banner p {
+    text-align:center;
+}
+
+#features_banner .icon_banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#features_banner .list_banner_img{
+
+
+
+    margin-bottom:26px;
+
+    /*   display: flex;
+       align-items: center;
+       justify-content: center;*/
+    width:126px;
+    height:116px;
+
+
+}
+
+div.srrow_right {
+    background:url(../../images/arrow_right_features.png) no-repeat;
+    background-position:center center;
+    width:105px;
+    height:17px;
+    float:left;
+    margin-top:70px;
+}
+
+
+
+#features_banner .list_banner_img.icon_1{
+    background:url(../../images/step_icon_1.jpg) no-repeat;
+    background-position:center center;
+}
+
+#features_banner .list_banner_img.icon_2{
+    background:url(../../images/step_icon_2.jpg) no-repeat;
+    background-position:center center;
+}
+
+#features_banner .list_banner_img.icon_3{
+    background:url(../../images/step_icon_3.jpg) no-repeat;
+    background-position:center center;
+}
+
+#features_banner .list_banner_img.icon_4{
+    background:url(../../images/step_icon_4.jpg) no-repeat;
+    background-position:center center;
+}
+
+#features_banner .list_banner_img.icon_5{
+    background:url(../../images/step_icon_5.jpg) no-repeat;
+    background-position:center center;
+}
+
+#features_banner svg {
+    font-size:32px;
+    margin-bottom:20px;
+    text-align:center;
+    color:#000;
+
+}
+
+#features_banner p {
+    line-height:24px;
+    font-size:16px;
+}
+.main_pg_container {
+    padding-top:26px;
+}
+
+@media (max-width: 900px) {
+    .srrow_right {
+        display:none;
+    }
+}
